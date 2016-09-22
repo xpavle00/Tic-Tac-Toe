@@ -1,0 +1,25 @@
+QWidget { 
+	background-color: black;
+	margin: 0px;
+	padding: 0px;
+	spacing: 0px 
+}
+
+QPushButton{ 
+	background-color: white;
+	width: 65px;
+	height: 100%
+}
+
+QPushButton#cellButton[nought="true"] { 
+	qproperty-icon: url(Resources/icons/nought.png)
+}
+
+QPushButton#cellButton[cross="true"] { 
+	qproperty-icon: url(Resources/icons/cross.png) 
+}
+
+QPushButton#cellButton[win="true"] { 
+	background-color: green
+}
+
